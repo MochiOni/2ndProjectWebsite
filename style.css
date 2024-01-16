@@ -1,0 +1,95 @@
+.a:link, a:visited{
+        background-color: transparent;
+        color: black;
+        border: 2px solid lightseagreen;
+        border-radius: 150px;
+        padding: 5px 5px;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        margin: auto;
+}
+.a:hover,.a:active{
+        background-color: lightyellow;
+        display: block;
+        box-shadow: 0 0 10px lightgoldenrodyellow;
+}
+/*CSS for my Navigation*/
+.navbar{
+        overflow: hidden;
+        background-color: lightyellow;
+}
+.navbar a{
+        float: left;
+        display: flex;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 15px;
+        text-decoration: none;
+        justify-content: center;
+        color: black;
+        background-color: transparent;
+        border-radius: 45px;
+        color: darkgreen;
+}
+
+.navbar a:hover{
+        background-color: lightgoldenrodyellow;
+        color: black;
+        box-shadow: 0 0 10px 0 lightgreen inset, 0 0 20px 2px darkgreen;
+        border-radius: 45px;
+}
+/*CSS for My Header*/
+.top{
+        text-align: center;
+        background: linear-gradient(90deg, #D2E9E9, #E3F4F4, );
+        padding: 30px;
+        border: 3px solid #304D30;
+}
+/*CSS for my Body */
+.body, html{
+        background-image: url('lotus.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+} 
+.pol{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+}
+.footer{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+}
+/*CSS for the Neon Text*/
+.wrapper-two{
+        background-color: lightgoldenrodyellow;
+        font-size: 10rem;
+}
+.neon h3{
+        margin: 1rem auto;
+        animation: neon 3s ease infinite;
+        text-align: center
+}
+@keyframes neon{
+        0%, 
+        100% {
+            text-shadow: 0 0 10px lightseagreen, 0 0 20px green, 0 0 20px darkgreen, 0 0 20px lightseagreen, 0 0 20px lightgreen, 0 0 20px darkgreen;
+            color: white;
+        }
+        50% {
+                text-shadow: 0 0 2px lightyellow, 0 0 5px lightgoldenrodyellow;
+                color: white;
+        }
+}
+/*CSS for the image*/
+img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        border-radius: 45px;
+}
